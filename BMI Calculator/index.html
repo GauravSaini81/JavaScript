@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="function.js" defer></script>
+</head>
+<body>
+    <div class="h-screen w-screen m-12 p-12 md:flex flex-col items-center ">
+        <div class="md:flex md:flex-row">
+            <div class="flex flex-col">
+        <h1 class="text-4xl font-bold">BMI Calculator</h1>
+        <form action="BMI calculator">
+        <label class="  font-bold" for="height">Height in CM:</label>
+        <input id="Height" class="border-2" type="number"min="0"><br> <br>
+        <label class=" font-bold" for="width">Weight in KG:</label>
+        <input id="Weight" class="border-2" type="number"min="0">
+        <div><button class=" mt-2 mb-2 bg-purple-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Calculate</button></div>
+        <div class="result p-3 border-2  hover:border-black"></div>
+    </div>
+    <div class="flex flex-col pt-6 ms-12">
+        <h3 class="font-bold underline">BMI Weight Guide:</h3>
+        <h5 class="font-semibold">Underweight =< 18.5 </h5>
+        <h5 class="font-semibold">Normal weight = 18.5–24.9</h5>
+        <h5 class="font-semibold">Overweight = 25–29.9</h5>
+        <h5 class="font-semibold">Obesity = BMI of 30 or greater</h5>
+        <h4 class="font-semibold underline">The BMI Tables</h4>
+        <h5 class="font-semibold underline">Aim for a Healthy Weight:</h5>
+        <p> Limitations of the BMI
+            Assessing  <br>Your Risk
+            Controlling Your Weight
+            Recipes</p>
+    </div>
+</form>
+    </div>
+    </div>
+</body>
+</html>
