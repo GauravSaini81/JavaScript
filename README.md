@@ -12,7 +12,7 @@ I'm enthusiastic about continuing my JavaScript learning journey and have plans 
 
 If you want to try out any of these projects, follow the instructions below:
 
-[Link to Commit](https://github.com/GauravSaini81/JavaScript/tree/7ab910ee666143fab29fe1d3ed39c429e24a48c9)
+[Link to Acess ](https://github.com/GauravSaini81/JavaScript/tree/7ab910ee666143fab29fe1d3ed39c429e24a48c9)
 
 
 
