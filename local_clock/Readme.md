@@ -1,1 +1,1 @@
-
+The lock clock is designed to serve as a practical and aesthetically pleasing addition to websites or applications, offering users the convenience of checking the time in the Indian time zone. Leveraging JavaScript, HTML, and CSS, this project combines functionality with a sleek design.
