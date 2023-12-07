@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="function.js" defer></script>
+    <title>Number Guess</title>
+</head>
+<body class="bg-gradient-to-r from-rose-100 to-teal-100 ">
+    
+    <div class=" flex flex-col items-center justify-center gap-6  p-12">
+        <h1 class="text-5xl font-bold underline text-orange-600">Number guessing Game </h1>
+        <p class="font-semibold">Try and Guess the right Number between 1 to 100</p>
+        <p class="font-semibold">You have max 10 attempts to find the right Number</p>
+        <br>
+        <form action="form">
+<label for="guessField" id="guess" class="text-2xl font-bold">Guess a number</label><br> <br>
+<input type="text" id="guessField" class="guessField border-2"><br> <br>
+<input type="submit" value="Submit guess" id="subt" class="guessSubmit bg-transparent hover:bg-green-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border  hover:border-transparent rounded">
+        </form>
+        <div class="resultParas items-center justify-center ">
+<p  class="font-bold self-center">Previous Gusses: <span class="guesses self-center text-2xl font-semi-bold"></span></p>
+<p class="font-bold self-center"> Guesses Remaining: <span class="lastResult self-center text-2xl font-semi-bold">10</span></p>
+<p class="loworHi self-center"></p>
+        </div>
+    </div>
+</body>
+</html>
